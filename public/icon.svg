@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="fridgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7565" />
+      <stop offset="100%" stop-color="#F04730" />
+    </linearGradient>
+    <linearGradient id="doorGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FFF0ED" />
+    </linearGradient>
+  </defs>
+
+  <!-- Refrigerator Body -->
+  <rect x="8" y="4" width="48" height="54" rx="8" fill="url(#fridgeGrad)" />
+  <rect x="11" y="7" width="42" height="22" rx="5" fill="url(#doorGrad)" />
+  <rect x="11" y="31" width="42" height="24" rx="5" fill="url(#doorGrad)" />
+
+  <!-- Handles -->
+  <rect x="13" y="16" width="3" height="8" rx="1.5" fill="#FF7565" />
+  <rect x="13" y="36" width="3" height="12" rx="1.5" fill="#FF7565" />
+
+  <!-- Cute Magnets -->
+  <rect x="22" y="12" width="10" height="9" rx="1.5" fill="#F5A623" transform="rotate(-6 27 16)" />
+  <circle x="27" y="14" r="1.5" fill="#FFFFFF" />
+
+  <rect x="36" y="11" width="12" height="13" rx="1.5" fill="#FFFFFF" stroke="#E2D7D3" stroke-width="0.8" transform="rotate(5 42 17)" />
+  <rect x="38" y="13" width="8" height="7" rx="0.5" fill="#FF7565" opacity="0.8" transform="rotate(5 42 17)" />
+
+  <circle cx="24" cy="38" r="3" fill="#FF644E" />
+  <circle cx="34" cy="42" r="3" fill="#4A90E2" />
+
+  <!-- Refrigerator feet -->
+  <rect x="14" y="58" width="6" height="3" rx="1" fill="#892A1E" />
+  <rect x="44" y="58" width="6" height="3" rx="1" fill="#892A1E" />
+</svg>
