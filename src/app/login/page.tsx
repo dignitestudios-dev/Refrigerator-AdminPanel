@@ -192,7 +192,7 @@ function LoginFormContent() {
           REFRIGERATOR
         </h1>
         <p className="text-sm font-semibold text-[#786665] mt-1">
-          Super Admin Console
+          Super Admin
         </p>
       </div>
 
@@ -267,7 +267,7 @@ function LoginFormContent() {
               <Loader2 className="w-4 h-4 animate-spin" />
             ) : (
               <>
-                Sign In to Console
+                Sign In
                 <ArrowRight className="w-4 h-4" />
               </>
             )}

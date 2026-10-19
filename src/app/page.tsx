@@ -34,7 +34,7 @@ export default function RootPage() {
           />
         </div>
         <p className="text-xs font-bold text-[#786665] tracking-wide uppercase">
-          Loading Super Admin Console...
+          Loading Super Admin...
         </p>
       </div>
     </div>

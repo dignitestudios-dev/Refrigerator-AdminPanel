@@ -169,7 +169,7 @@ export function Sidebar({ isOpen: propIsOpen, onClose: propOnClose }: SidebarPro
                       </span>
                     </div>
                     <div className="text-[11px] text-[#786665] font-semibold mt-1 truncate">
-                      Super Admin Console
+                      Super Admin
                     </div>
                   </div>
                 </div>
@@ -238,7 +238,7 @@ export function Sidebar({ isOpen: propIsOpen, onClose: propOnClose }: SidebarPro
                     </span>
                   </div>
                   <div className="text-[11px] text-[#786665] font-semibold mt-1 truncate">
-                    Super Admin Console
+                    Super Admin
                   </div>
                 </div>
               </div>
@@ -441,7 +441,7 @@ export function Sidebar({ isOpen: propIsOpen, onClose: propOnClose }: SidebarPro
             >
               <DropdownMenuLabel>
                 <div className="font-bold text-[#231817] truncate">{admin?.email}</div>
-                <div className="text-[10px] text-[#786665] font-normal">Superadmin Console</div>
+                <div className="text-[10px] text-[#786665] font-normal">Super Admin</div>
               </DropdownMenuLabel>
               <DropdownMenuSeparator />
               <DropdownMenuItem asChild>
@@ -469,7 +469,7 @@ export function Sidebar({ isOpen: propIsOpen, onClose: propOnClose }: SidebarPro
                 className="flex items-center gap-2 text-rose-600 focus:text-rose-600 cursor-pointer font-semibold"
               >
                 <LogOut className="w-4 h-4" />
-                <span>Sign Out Console</span>
+                <span>Sign Out</span>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
@@ -484,8 +484,8 @@ export function Sidebar({ isOpen: propIsOpen, onClose: propOnClose }: SidebarPro
           setShowLogoutConfirm(false);
           logout();
         }}
-        title="Confirm Console Sign Out"
-        description="Are you sure you want to log out of the Refrigerator Pictures Super Admin Console? You will need to sign in again to manage moderators and user feeds."
+        title="Confirm Sign Out"
+        description="Are you sure you want to log out of Refrigerator Pictures Super Admin? You will need to sign in again to manage moderators and user feeds."
         confirmLabel="Log Out"
         confirmVariant="danger"
       />

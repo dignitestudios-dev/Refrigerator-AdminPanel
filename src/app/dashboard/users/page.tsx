@@ -837,7 +837,7 @@ function UsersContent() {
             deleteModalUser && deleteMutation.mutateAsync(deleteModalUser._id)
           }
           title={`Permanently Delete User: ${deleteModalUser?.name || 'User'}`}
-          description={`Are you sure you want to delete ${deleteModalUser?.email}? This action is irreversible from the superadmin console.`}
+          description={`Are you sure you want to delete ${deleteModalUser?.email}? This action is irreversible.`}
           consequences={[
             'Signs user out everywhere and dissolves all friendships.',
             'Permanently removes all of their refrigerator posts and comments.',

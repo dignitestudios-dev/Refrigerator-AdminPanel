@@ -123,7 +123,7 @@ export function Header({ onToggleSidebar, title, subtitle }: HeaderProps) {
               <DropdownMenuContent align="end" className="w-56">
                 <DropdownMenuLabel>
                   <div className="font-bold text-[#231817] truncate">{admin?.email}</div>
-                  <div className="text-[10px] text-[#786665] font-normal">Superadmin Console</div>
+                  <div className="text-[10px] text-[#786665] font-normal">Super Admin</div>
                 </DropdownMenuLabel>
                 <DropdownMenuSeparator />
 
@@ -169,8 +169,8 @@ export function Header({ onToggleSidebar, title, subtitle }: HeaderProps) {
           setShowLogoutConfirm(false);
           logout();
         }}
-        title="Confirm Console Sign Out"
-        description="Are you sure you want to sign out of the Refrigerator Pictures Super Admin Console?"
+        title="Confirm Sign Out"
+        description="Are you sure you want to sign out of Refrigerator Pictures Super Admin?"
         confirmLabel="Log Out"
         confirmVariant="danger"
       />
